@@ -7,4 +7,5 @@ Reviewing Jekyll docs
 * Visual Studio for XML tag generation
 * EMACS org-mode and nxml mode (tag generation and content editing)
 * GVim for editing XSLT (the programmable component)
-* The browser itself generating the finished product.
+* The browser itself previewing the finished product.
+* Pandoc generating the finished product.
