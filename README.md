@@ -14,6 +14,6 @@
 * Visual Studio for XML tag generation
 * EMACS org-mode and nxml mode (tag generation and content editing)
 * GVim for editing [XSLT](https://github.com/RayNieva/OrgWindowsDesktop/blob/master/ITGeneralistWithJavaScript.xslt) (the programmable component)
-* The browser itself previewing the finished product.
+* The browser itself previewing the finished product. [Resume](http://burrito.rgnterprises.net)
 * Pandoc generating the finished product.
 * re-iterate above workflow creates a new product.
