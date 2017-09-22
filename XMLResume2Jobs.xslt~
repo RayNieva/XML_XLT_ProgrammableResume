@@ -1,0 +1,25 @@
+<xsl:stylesheet version="1.0"
+xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+<xsl:template match="portfolio">
+
+<xsl:text>"Name"</xsl:text>
+<xsl:text>&#10;</xsl:text>
+<xsl:text>;</xsl:text>
+<xsl:text>&#10;</xsl:text>
+<xsl:text>"Price"</xsl:text><br/>&#10;
+
+<xsl:for-each select="//stock[@exchange='nasdaq']">
+
+<xsl:text>"</xsl:text>
+<xsl:value-of select="name"/>
+<xsl:text>"</xsl:text><xsl:text>&#10;</xsl:text>
+
+<xsl:text>;</xsl:text>
+<xsl:text>&#10;</xsl:text>
+
+<xsl:text>"</xsl:text>
+<xsl:value-of select="price"/>
+<xsl:text>"</xsl:text><br/>&#10;
+
+</xsl:for-each>
+</xsl:template>
