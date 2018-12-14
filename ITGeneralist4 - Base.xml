@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--<?xml-stylesheet type="text/xsl" href="ITGeneralistWithJavascript4.xslt"?>-->
 <!--<?xml-stylesheet type="text/xsl" href="XMLResume2Jobs.xslt"?>-->
-<?xml-stylesheet type="text/xsl" href="ITGeneralistWithJavaScript4 - Base.xslt"?>
-<!--<?xml-stylesheet type="text/xsl" href="ITGeneralistWithJavaScript4 - Base - SecurityAdmin.xslt"?>-->
-<!--<?xml-stylesheet type="text/xsl" href="ITGeneralistWithJavaScript4 - Base - Sales.xslt"?>-->
+<!--<?xml-stylesheet type="text/xsl" href="XMLResume2Item.xslt"?>-->
+<!--<?xml-stylesheet type="text/xsl" href="ITGeneralistWithJavaScript4-Base.xslt"?>-->
+<!--<?xml-stylesheet type="text/xsl" href="ITGeneralistWithJavaScript4-Base-SecurityAdmin.xslt"?>-->
+<!--<?xml-stylesheet type="text/xsl" href="ITGeneralistWithJavaScript4-Base-Sales.xslt"?>-->
 <jobsearch>
-* <code>(setq truncate-lines 'nil) (setq truncate-lines 't)  </code>
+** <code>(setq truncate-lines 'nil) (setq truncate-lines 't)  </code>
 
 One new concept discovered is the notion of a Master Resume which I have proposed all along, but now published as a concept by http://www.job-hunt.org/resumes/master-resume-for-linkedin.shtml for LinkedIn since you cannot create multiple linkedIn profiles. Similar is http://www.job-hunt.org/job-search-for-academics/kitchen-sink-resume.shtml 
 
@@ -25,13 +26,16 @@ Careful consideration must be taken when presenting dual careers http://www.job-
   <items id="1">Management, Supervision, Sales, Marketing, Finance, Real Estate, Concierge,Customer Service, Security, Retail, Hotels, Telemarketing, Software, and Technical Background, Convenience Store/deli and Food delivery. </items>
 </header>
   
+* Header DBA Oriented Summary
+<header></header>
+  
 * Header Primary Tech Oriented Summary
 <header type="primary tech">
 ** Summary:<subheader type="summary">
   <item> Creative, and experienced professional bringing superior design and debugging capabilities, innovative problem solving skills and dedication to quality</item></subheader>
 *** Skills: Languages and Software Technology<subheader type="skills" level="3">
 **** Languages: in general order of familiarity: <subheader type="languages" level="4"> 
-  <items> &#8226;SQL Server, SQLite, MS Access (VBA), VB, VBScript, Ruby, Javascript,  Python, .NET, HTML5, CSS3, XML, PHP, MySQL, Unix/Linux, Cygwin, Power Shell </items></subheader>
+  <items> &#8226;SQL Server,Python, Unix/Linux, Cygwin, Power Shell, SQLite, MS Access (VBA), VB, VBScript, Ruby, Javascript, .NET, HTML5, CSS3, XML, PHP, MySQL </items></subheader>
 **** Software: <subheader type="software" level="4">
   <items>•&#8226; Expertise in Salesforce, Sharepoint, Spiceworks, Git,  SQL Server Management Studio, Virtualization, Crystal Reports, Microsoft Office (Including MS Access), OpenOffice (extending in Basic and Python) Windows, Linux/Posix, Visual Studio, Eclipse, Emacs, Vim, Wordpress and Joomla</items></subheader></subheader>
 *** <subheader id="ALLACCOMPLISHMENTS" type="accomplishments" level="3">Accomplishments</subheader>
@@ -243,11 +247,27 @@ Unified Communications and Automatic call distribution ACD systems (Powerdialer)
 
 * Experience Tech/Sales Oriented <header type="sales">PROFESSIONAL EXPERIENCE:
 </header>
+
+** <job id="WindR380">
+    <title>Programmer, Data Import</title>
+    <company>Wind River Environmental - Marlboro, MA</company>
+    <dates>May 2018- Oct 2018</dates>
+  </job>
+
+
+
+** <job id="GHMNE380i">
+  <title>System Administrator Unix/AIX (Direct Contract)</title> 
+  <company>Gatehouse Media New England – Needham, MA</company>
+  <dates>2017-2018</dates>
+</job>
+
+
   
 ** <job id="PF370">
-  <title>Support Engineer</title>
-  <dates>2016-2017</dates>
+  <title>Support Engineer (Contract)</title>
   <company>Pageflex - Marlboro, MA</company>
+  <dates>2016-2017</dates>
 </job>
 ** <bus id="RGN360">
   <title>Internet Marketing/Automation Developer/Consultant VAR (Value Added Reseller)/Systems Integrator - Web Apps, DBA Tools</title>
@@ -261,34 +281,36 @@ Unified Communications and Automatic call distribution ACD systems (Powerdialer)
 
 ** <job id="DA350">
   <title>Trouble Resolution Specialist/Information Engineer</title>
-<dates>September 2012 to January 2016</dates>
 <company>Dining Alliance — Waltham, MA </company>
+<dates>September 2012 to January 2016</dates>
 <description>Managed IT Infrastructure as Trouble Resolution Specialist/Information Engineer for nations largest Foodservice GPO – In capacity of Trouble Resolution Specialist more traditional desktop support functions for nationwide group, software, hardware (memory and mass storage) installations and troubleshooting. Includes Email administration using both Gmail and Exchange. Design and development VOIP phone system/admin. Facilited email migrations for 3 sister companies. DNS Administration for family of companies separate domains. Virtualization (GTM, Chrome Desktop, VNC and Teamviewer). Teamdrive and Onedrive administration. Linux/Ubuntu Xforwarding integration in a Windows environment- remote administration SSH and Powershell. In capacity of Information Engineer Salesforce Design/Dev of 8000+ to date ticketing system. Design and Dev Product/Asset inventory system. DA Intranet Web site and Salesforce/Sharepoint Integration. Development of SQLite/Ditto Automated Data Entry system using Ruby/VB/MS Access.  </description>
 </job>
 
 ** <job id="DA350i">
   <title>Trouble Resolution Specialist/Information Engineer</title>
-<dates>2012-2016</dates>
-<company>Dining Alliance — Waltham, MA </company></job>
+<company>Dining Alliance — Waltham, MA </company><dates>2012-2016</dates></job>
+
 
 ** <job id="DA350S">Trouble Resolution Specialist/Information Engineer (Enhanced Sales Oriented Version)
 <title>Trouble Resolution Specialist/Information Engineer</title>
-<dates>2012-2016 </dates><company>Dining Alliance — Waltham, MA</company>  <description>Managed IT Infrastructure as Trouble Resolution Specialist/Information Engineer for nations largest food service GPO – Facilitated introduction of Sidekick/Hubspot (email sales/marketing superpower tracking. )  Design and development VOIP phone system/admin to emphasize market branding for each separate company. Facilitated email migrations for 3 sister companies. DNS Administration for family of companies various domains for each separate marketing brand. Virtualization (Goto Meeting and Clearslide facilitating sales presentations). In capacity of Information Engineer Salesforce Design/Development of 8000+ to date customer ticketing system. Design and Development DA Intranet Web site and Salesforce(TM)/Sharepoint(TM)  Integration.</description>
+<company>Dining Alliance — Waltham, MA</company> 
+<dates>2012-2016 </dates>
+<description>Managed IT Infrastructure as Trouble Resolution Specialist/Information Engineer for nations largest food service GPO – Facilitated introduction of Sidekick/Hubspot (email sales/marketing superpower tracking. )  Design and development VOIP phone system/admin to emphasize market branding for each separate company. Facilitated email migrations for 3 sister companies. DNS Administration for family of companies various domains for each separate marketing brand. Virtualization (Goto Meeting and Clearslide facilitating sales presentations). In capacity of Information Engineer Salesforce Design/Development of 8000+ to date customer ticketing system. Design and Development DA Intranet Web site and Salesforce(TM)/Sharepoint(TM)  Integration.</description>
 </job>
 
 ** <job id="GHME340"><title>Programmer/Systems/Database Administrator and Miles Application Support</title> 
+<company>Gatehouse Media New England — Needham, MA</company> 
 <dates>June 2006 to November 2011</dates> 
 <datesS>2006-2011</datesS> 
-<company>Gatehouse Media New England — Needham, MA</company> 
 <description>&#8226; For largest community newspaper organization in New England Database/Reporting of revenue tracking in support of Sales, Finance and Production depts.. </description></job>
 
 ** <job id="GHME340i"><title>Programmer/Systems/Database Administrator and Miles Application Support</title> 
-<dates>2006-2011</dates> 
- <company>Gatehouse Media New England — Needham, MA</company></job>
+ <company>Gatehouse Media New England — Needham, MA</company>
+<dates>2006-2011</dates> </job>
 
 ** <job id="GHME320"><title>Lead Helpdesk Customer Service Operator/Database- Administrator/ Supervisor</title> 
-<dates>Sept 1996 to January 2007</dates> 
-<company>Gatehouse Media New England — Needham, MA</company></job> 
+<company>Gatehouse Media New England — Needham, MA</company>
+<dates>Sept 1996 to January 2007</dates> </job> 
 
 </experience>
 
@@ -613,7 +635,7 @@ Unified Communications and Automatic call distribution ACD systems (Powerdialer)
 ** <schoolsAndTraining id="1">
 ***  <item id="1">
     <name>New Horizons</name>		<location>Waltham , MA</location>
-    <description id="1">+, Net + , Linux + Training and Microsoft  Windows Server 2008 Server Administration MSCITP working towards certifications.</description></item>
+    <description id="1">A+,  Net + , Linux + Training and independent study for Microsoft Windows Server Administration, SQL Server Administration and Development MSCA working towards certifications.</description></item>
 
 ***  <item id="2">
     <name>self-taught programmer...</name><description id="1">Curriculum based on functional languages like Lisp/Javascript etc... see LinkedIn and GitHub for more info</description>
