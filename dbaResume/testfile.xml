@@ -1,0 +1,592 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="DBAWithJavaScript4.xslt"?>
+<resume>
+
+* Resume Copy 
+<resume_name>
+<name>Ray Nieva </name>
+<contact_info>Home: 978-365-7585 - Cell: 978-763-5277 - raynieva@gmail.com </contact_info>
+<linkedIn>https://www.linkedin.com/in/raynieva</linkedIn>
+<github>https://github.com/RayNieva</github>
+</resume_name>
+<header type="DBA">
+** Summary:
+
+-<subheader type="summary">
+
+<item> Creative, and experienced SQL professional bringing superior design and debugging capabilities, innovative problem solving skills and dedication to quality</item>
+
+</subheader>
+*** Skills: Languages and Software Technology
+
+-<subheader level="3" type="skills">
+**** Languages: in general order of familiarity: 
+
+-<subheader level="4" type="languages">
+
+<items> *SQL Server, XML / XSLT, Python, Unix / Linux, Cygwin, Power Shell, SQLite, MS Access (VBA), VB, VBScript, Ruby, Javascript,  .NET, HTML5, CSS3,  PHP, MySQL,  </items>
+
+</subheader>
+**** Software: 
+
+-<subheader level="4" type="software">
+
+<items>** Expertise in SQL Server Management Studio, Visual Studio, SSIS, SSRS, SSAS, Git, Sharepoint, Salesforce,  Spiceworks, Web API s,  Virtualization, Crystal Reports, Microsoft Office (Including MS Access), OpenOffice (extending in Basic and Python) Windows, Linux/Posix,Emacs, Vim,  Eclipse,  Wordpress and Joomla</items>
+
+</subheader>
+
+</subheader>
+*** <subheader id="ALLACCOMPLISHMENTS" level="3" type="accomplishments">Accomplishments</subheader>
+
+**** Currently in Progress (On-going)
+
+
+-<subheader type="RGN1">
+
+
+
+<item id="RGN3">
+Pending Certification in MSCA ( Microsoft Certified Solutions Associate) MSSQL Server and Windows Server Administration
+</item>
+
+<item id="RGN2">
+Current development of Automated Resume/CopyWriting System using SQL Server, Python, XML and Javascript.
+</item>
+
+<item id="RGN5">Current development of MS SQL Server SSIS in Visual Studio as a general development coding platform (visual operational automation scripting for moving and transforming XML and YAML formatted data with Ruby scripts to MSSQL Server database
+</item>
+
+
+<items id="RGN1">Past multiple Projects for RGNterprises, TSSG, Automated Income Master Mind and Flat Penny Bar and Grill involving multiple technologies in full stack web development, Big Data Analytics, Software QA Automation, DevOps, Networking and Internet Marketing. Please see https://linkedin/in/raynieva for more detailed information
+</items>
+
+</subheader>
+
+**** <subheader id="DESCWINDR" type="description">At the largest company of its kind(Septic, Plumbing and Grease Disposal)</subheader>
+<item id="windr1">  Data Import of New Company Merger Acquistions Using SQL Server, Python/Pandas involving small to medium size companies ranging $500,000 to $1,000,000 annualized revenue and above.
+</item> 
+**** <subheader id="DESCPAGEFLEX" type="description">Product Technical Support for a Global Company that develops Marketing Automation/Variable Data Printing/Flexible web-to-print platforms</subheader>
+
+**** Itemized Functions: 
+     
+<subheader type="pageflex functions">
+
+<item id="pageflex1">Interface with product engineering to develop new features and bug fixes based on customer needs</item>
+
+<item id="pageflex2">Resolve, debug and document customer issues as related to the Pageflex technology stack (see below)</item>
+
+<item id="pageflex3">Developed Custom Storefront Deployment (automation) (Using Pageflex to document and control Pageflex)</item>
+
+<item id="pageflex4">Re-build and emulate customer platforms using virtualization to resolve customer issues</item>
+
+<item id="pageflex5">Resolve SMTP, network and firewall issues as related to Pageflex operations</item>
+
+</subheader>
+ **** Itemized Technology Stack: 
+
+<subheader type="pageflex technology stack">
+
+<item id="pageflex6">Windows Server 2008 R2, Windows Server 2012 R2, Windows IIS Web Server, Pageflex Server</item>
+
+<item id="pageflex7">SQL Server (backups, restores, queries) SQL Server 2005, 2008, 2012 and 2014 (clustered)</item>
+
+
+
+
+<item id="pageflex9">VMWare ESXi (vCenter Server and vSphere Client)</item>
+
+<item id="pageflex10">Graphics and Font technology, Adobe Indesign on MAC as related to Pageflex Support</item>
+
+<item id="pageflex11">Javascript, Vbscript and XML command packet API</item>
+
+<item id="pageflex12">Pageflex Studio, Pageflex Storefront, ASP.Net platform, Salesforce, Lotus Notes, Slack, Sharepoint</item>
+
+</subheader>
+	
+
+**** <subheader id="DESCDA" type="description">Working for the largest Foodservice GPO in the nation</subheader>
+
+<items id="DA1">* Development of (SQL) SQLite /Ditto automated data entry system using Ruby / VB / MS Access. for interfacing with cloud platform technologies * Facilitated introduction of Sidekick/Hubspot(TM) (email sales/marketing superpower tracking) * Improved storage performance significantly for massive Teamdrive(TM) filesystem (250,000 document files) by moving to a no-sync strategy. * Facilitated email migrations for 3 sister companies * Design, development and administration of 3 different VOIP systems using VonageBusiness(TM) for each separate company brand. * In capacity of Information Engineer, Salesforce(TM) development of 8000+ to date ticketing system and integration to Spiceworks Technology * Also lead development of Product/Asset inventory system using same technologies.* Design and development of Intranet Web site using Wordpress and Salesforce/Sharepoint Integration. </items>
+**** Itemized <subheader id="DAITEMIZED">
+
+<item id="DA1"> Development of (SQL) SQLite /Ditto automated data entry system using Ruby / VB / MS Access for interfacing with cloud platform technologies</item>
+
+<item id="DA2"> Facilitated introduction of Sidekick/Hubspot(TM) (email sales/marketing superpower tracking)</item>
+
+<item id="DA3"> Improved storage performance significantly for massive Teamdrive(TM) filesystem (250,000 document files) by moving to a no-sync strategy</item>
+
+<item id="DA4"> Facilitated email migrations for 3 sister companies</item>
+
+<item id="DA5"> Design, development and administration of 3 different VOIP systems using VonageBusiness(TM) for each separate company brand</item>
+
+<item id="DA6"> In capacity of Information Engineer, Salesforce(TM) development of 8000+ to date ticketing system and integration to Spiceworks Technology</item>
+
+<item id="DA7"> Also lead development of Product/Asset inventory system using same technology (Salesforce)</item>
+
+<item id="DA8"> Design and development of Intranet Web site using Wordpress and Salesforce/Sharepoint Integration.</item>
+
+</subheader> 
+**** <subheader id="DESCGHMNE">At the largest community based newspaper company in NE (parent company is largest in nation)</subheader>
+**** Itemized 
+
+<subheader id="GHMNEITEMIZED">
+
+<item id="GHMNE7">
+Recently Administrative, operational support (running jobs and Disaster Recovery) and SARBOX reporting of legacy mission critical Unix IBM/AIX (Always On no-downtime) system for mainframe style ISAM database circulation system (150 daily and weekly newspapers). ISAM is the non-relational forerunner of such implementations as IBMs DB2, MS Access and the open source MySQL.
+</item> 
+
+<item id="GHMNE6">
+Recently Developed and implemented single key and shortcut key activated operational automation scripts for UNIX CSH shell and Red Hat Cygwin/X Bash shell user interface for running mission critical update\backup database job streams and database restore interface
+Internet 
+
+</item> 
+
+<items id="GHMNE1">*Working for business applications group support/developed a variety of time saving automated production and system adminstration/automation solutions using multiple programming languages (web and client/server desktop) technologies. * Involved in conversion of advertising systems/products from Enterprise News Media (35 papers) acquisitions to Miles advertising system. * Monitoring and system maintenance of mission critical business systems for advertising, sales, finance and production. * Design and development of Joomla/MediaWiki based intranet website for IT documentation and communication. Design, development of automated Insert Tracking System for print and deliver operations. Design/development Helpdesk Database.</items>
+
+<item id="GHMNE2">Working for business applications group support/developed a variety of time saving automated production and system adminstration/automation solutions using multiple programming languages (web and client/server desktop) technologies</item>
+
+<item id="GHMNE3">Involved in conversion of advertising systems/products from Enterprise News Media (35 papers) acquisitions to Miles advertising system</item>
+
+<item id="GHMNE4">Monitoring and system maintenance of mission critical business systems for advertising, sales, finance and production</item>
+
+<item id="GHMNE5">Design and development of Joomla/MediaWiki based intranet website for IT documentation and communication. Design, development of automated Insert Tracking System for print and deliver operations. Design/development Helpdesk Database</item>
+
+</subheader>	
+
+</header>
+<experience id="1" type="all">
+
+
+* Security/Administration Oriented<header type="security">Security<item id="sec1">Control Room Skills</item>
+<item id="sec2">Very Quick Learner</item>
+<item id="sec3">Diligent Observer</item>
+<item id="sec4">Work well in Team Environment</item>
+<item id="sec5">Strong communications skills</item>
+<item id="sec6">Flexible schedule</item>
+<item id="sec7">Adaptable</item>
+<item id="sec8">Accustomed to Working Long hours</item>
+<item id="sec9">Microsoft Office and Google Docs</item>
+<item id="sec10">Extensive Security Report Writing</item>
+</header>
+
+* Experience Tech/Sales Oriented <header type="sales">PROFESSIONAL EXPERIENCE:
+</header>
+
+** <job id="WindR380">
+    <title>Programmer, Data Import</title>
+    <company>Wind River Environmental - Marlboro, MA</company>
+    <dates>May 2018- Oct 2018</dates>
+  </job>
+
+
+
+** <job id="GHMNE380i">
+  <title>System Administrator Unix/AIX (Direct Contract)</title> 
+  <company>Gatehouse Media New England - Needham, MA</company>
+  <dates>2017-2018</dates>
+</job>
+
+
+  
+** <job id="PF370">
+  <title>Support Engineer (Contract)</title>
+  <company>Pageflex - Marlboro, MA</company>
+  <dates>2016-2017</dates>
+</job>
+** <bus id="RGN360">
+  <title>Internet Marketing/Automation Developer/Consultant VAR (Value Added Reseller)/Systems Integrator - Web Apps, DBA Tools</title>
+  <dates>2006-Present</dates>
+  <description>Workflow Automation/Automation Research (VPLs and Flowgorithm Project, Continued development of (SQL) SQLite /Ditto automated data entry system using Ruby / VB / MS Access for interfacing with cloud platform technologies) , Data Research, Web Scraping, Web Crawling,Internet Marketing, Windows and Linux Tutorials, Bespoke Application Development, Invoicing Systems, Databases, Open Source, VAR (Value-added Reseller) - Past/Current clients/associates: Red Taxi, Hudson Printing, Dr. Julia Sutton, Foundation for MetroWest, Gatehouse Media NE, Flat Penny Bar and Grill, TSSG Group, Automated Income Mastermind</description>
+</bus>
+
+** <bus id="RGN360i">
+  <title>Internet Marketing/Automation Developer/Consultant VAR (Value Added Reseller)/Systems Integrator - Web Apps, DBA Tools</title>
+  <dates>2006-Present</dates></bus>
+
+** <job id="DA350">
+  <title>Trouble Resolution Specialist/Information Engineer</title>
+<company>Dining Alliance - Waltham, MA </company>
+<dates>September 2012 to January 2016</dates>
+<description>Managed IT Infrastructure as Trouble Resolution Specialist/Information Engineer for nations largest Foodservice GPO * In capacity of Trouble Resolution Specialist more traditional desktop support functions for nationwide group, software, hardware (memory and mass storage) installations and troubleshooting. Includes Email administration using both Gmail and Exchange. Design and development VOIP phone system/admin. Facilited email migrations for 3 sister companies. DNS Administration for family of companies separate domains. Virtualization (GTM, Chrome Desktop, VNC and Teamviewer). Teamdrive and Onedrive administration. Linux/Ubuntu Xforwarding integration in a Windows environment- remote administration SSH and Powershell. In capacity of Information Engineer Salesforce Design/Dev of 8000+ to date ticketing system. Design and Dev Product/Asset inventory system. DA Intranet Web site and Salesforce/Sharepoint Integration. Development of SQLite/Ditto Automated Data Entry system using Ruby/VB/MS Access.  </description>
+</job>
+
+** <job id="DA350i">
+  <title>Trouble Resolution Specialist/Information Engineer</title>
+<company>Dining Alliance  Waltham, MA </company><dates>2012-2016</dates></job>
+
+
+** <job id="DA350S">Trouble Resolution Specialist/Information Engineer (Enhanced Sales Oriented Version)
+<title>Trouble Resolution Specialist/Information Engineer</title>
+<company>Dining Alliance - Waltham, MA</company> 
+<dates>2012-2016 </dates>
+<description>Managed IT Infrastructure as Trouble Resolution Specialist/Information Engineer for nations largest food service GPO * Facilitated introduction of Sidekick/Hubspot (email sales/marketing superpower tracking. )  Design and development VOIP phone system/admin to emphasize market branding for each separate company. Facilitated email migrations for 3 sister companies. DNS Administration for family of companies various domains for each separate marketing brand. Virtualization (Goto Meeting and Clearslide facilitating sales presentations). In capacity of Information Engineer Salesforce Design/Development of 8000+ to date customer ticketing system. Design and Development DA Intranet Web site and Salesforce(TM)/Sharepoint(TM)  Integration.</description>
+</job>
+
+** <job id="GHME340"><title>Programmer/Systems/Database Administrator and Miles Application Support</title> 
+<company>Gatehouse Media New England - Needham, MA</company> 
+<dates>June 2006 to November 2011</dates> 
+<datesS>2006-2011</datesS> 
+<description>* For largest community newspaper organization in New England Database/Reporting of revenue tracking in support of Sales, Finance and Production depts.. </description></job>
+
+** <job id="GHME340i"><title>Programmer/Systems/Database Administrator and Miles Application Support</title> 
+ <company>Gatehouse Media New England - Needham, MA</company>
+<dates>2006-2011</dates> </job>
+
+** <job id="GHME320"><title>Lead Helpdesk Customer Service Operator/Database- Administrator/ Supervisor</title> 
+<company>Gatehouse Media New England - Needham, MA</company>
+<dates>Sept 1996 to January 2007</dates> </job> 
+
+</experience>
+
+  <experience id="2" type="additional">
+* <header>ADDITIONAL EXPERIENCE:</header>
+
+** <jobs type="past01">Previous successful experience in Outside/Inside Sales(telesales), retail and customer service  in Mortgage Financing, Credit Union Lending and Telephone Services with Commonwealth Mortgage, NE Credit Union League, Bell Atlantic (Now Verizon)and big box retail.</jobs> 
+
+** <job id="CUC250"><title>Operations Center Representative</title> 
+<dates>January 1999 to January 2001</dates> 
+<company>Credit Union Center/Mass. Credit Union League-PT - Southborough, MA </company>
+<description> Loan applications, processing and approvals over the telephone and on the internet.</description> </job>
+
+** <job id="NYNEX249"><title>Sales Incentive Support/Database Administrator </title>
+<dates>January 1995 to January 1996</dates> 
+<company>NYNEX Telephone DMC - Braintree, MA</company> </job>
+
+** <job id="NYNEX248"><title>Sales Supervisor/Coach </title>
+<dates>January 1994 to January 1995</dates> 
+<company>NYNEX Telephone DMC - Braintree, MA </company></job>
+
+** <job id="NYNEX247"><title>Sales Quality Control Supervisor</title>
+<dates>January 1994 to January 1994 </dates>
+<company>NYNEX Telephone DMC - Marlborough, MA</company> </job>
+
+** <job id="NYNEX246"><title>Telephone Sales Representative </title>
+<dates>January 1992 to January 1994</dates> 
+<company>NYNEX Telephone DMC - Marlborough, MA</company></job>
+
+** <job id="HSS245"><title>Home Office Workstation Consultant</title> 
+<dates>January 1989 to January 1991</dates> 
+<company>Highland Superstores - Worcester, MA</company> </job>
+
+** <job id="C21-244"><title>Account Executive/ Area Manager/ Branch Mgr-Braintree</title> 
+<dates>January 1987 to January 1989</dates> 
+<company />Century 21 Mortgage Corp - Burlington, MA </job>
+
+** <job id="CMC243"><title>Account Executive</title> 
+<dates>January 1985 to January 1987</dates> 
+<company>Commonwealth Mortgage Company- Wellesley, MA</company> </job>
+
+** <job id="RW242"><title>Real estate Salesperson</title> 
+<dates>January 1984 to January 1985</dates> 
+<company>Realty World Suburban West-PT- Framingham, MA </company></job>
+</experience>
+
+<experience id="3" type="additionalWithNoDates">
+* No Dates <header>ADDITIONAL EXPERIENCE:</header>
+
+** <job id="CUC250NODATES"><title>Operations Center Representative</title>
+<company>Credit Union Center/Mass. Credit Union League-PT - Southborough, MA</company> 
+<description>* Loan applications, processing and approvals over the telephone and on the internet.</description> </job>
+
+** <job id="NYNEX249NODATES"><title>Sales Incentive Support/Database Administrator</title> 
+<company>NYNEX Telephone DMC - Braintree, MA</company></job>
+
+** <job id="NYNEX248NODATES"><title>Sales Supervisor/Coach</title> 
+<company>NYNEX Telephone DMC - Braintree, MA</company> </job>
+
+** <job id="NYNEX247NODATES"><title>Sales Quality Control Supervisor</title>
+<company>NYNEX Telephone DMC - Marlborough, MA</company> </job>
+
+** <job id="NYNEX246NODATES"><title>Telephone Sales Representative</title> 
+<company>NYNEX Telephone DMC - Marlborough, MA </company></job>
+
+** <job id="HSS245NODATES"><title>Home Office Workstation Consultant</title> 
+<company>Highland Superstores - Worcester, MA </company></job>
+
+** <job id="C21-244NODATES"><title>Account Executive/ Area Manager/ Branch Mgr-Braintree</title> 
+<company>Century 21 Mortgage Corp - Burlington, MA</company> </job>
+
+** <job id="CMC243NODATES"><title>Account Executive</title> 
+<company>Commonwealth Mortgage Company- Wellesley, MA</company> </job>
+
+** <job id="RW242NODATES"><title>Real estate Salesperson</title> 
+<company>Realty World Suburban West-PT- Framingham, MA</company> </job>
+</experience>
+
+
+
+  <experience id="3A" type="additionalWithNoDatesEnhanced">
+* No Dates <header>ADDITIONAL EXPERIENCE: </header>(Enhanced):
+
+** <job id="CMC243NODATESENH"><title>Account Executive</title><descripton>(Pre-sub prime era) $18,000,000 annualized loan production with Commonwealth Mortgage Company Achievers Award and 3 time MVP (Mort. Volume Producer)</descripton>
+<company>Commonwealth Mortgage Company- Wellesley, MA</company></job>
+** <job id="C21-244NODATESENH"><title>Account Exec/ Area Mgr/ Branch Mgr-Braintree</title>- Silver Mortgage Volume Production award with C21 Mortgage
+<company>Century 21 Mortgage Corp - Burlington, MA</company> </job>
+** <job id="NYNEX249NODATESENH"><title>Sales Incentive Support/Database Administrator, Sales Supervisor/Coach, Sales Quality Control Supervisor, TSR New England Telephone Golden Circle Award and Directors Club Award for sales. </title>
+<company>NYNEX Telephone DMC - Braintree, MA  and Marlborough, MA</company></job>
+** <job id="HSS245NODATESENH"><title>Home Office Workstation Consultant</title> <description>-  Past recipient Superstar of month avg sales per month Nov/Dec 25-30 PC's </description>
+<company>Highland Superstores - Worcester, MA</company> </job>
+** <job id="CUC250NODATESENH"><title>Operations Center Representative</title>
+<company>Credit Union Center/Mass. Credit Union League-PT - Southborough, MA</company><description> * Loan applications, processing and approvals over the telephone and on the internet.</description></job> 
+</experience>
+
+* From the Distant and Not so Distant Past
+
+<experience id="4" type="additional_from_past_careers_and_jobs">
+    More Additional Experience to be Integrated into Master Resume
+
+    
+**    <job id="Pallad001">
+    <title>Gatehouse Control Room/Concierge-PT Weekends</title>
+    <dates>02/2012-4/2013</dates>
+    <company>Palladion Services-PT Boston, MA</company>
+    <description>Equity West End Properties (Gatehouse and Control Room)
+    Reference: Patrick Knight</description>
+    </job>
+
+**    <job id="Pallad000">
+    <title>Concierge-PT Weekends</title>
+    <dates>04/2006-10/2010</dates>
+    <company>Palladion Services-PT Boston, MA</company>
+    <description>Barclays on Beacon Front Desk Concierge
+    Reference: Patrick Knight</description>
+    </job>
+
+** <job id="LWPIZ000">
+      <title>Pizza Delivery Driver</title>
+      <dates>12/98-2000</dates>
+      <company>Lake Williams Pizza-PTMarlboro, MA</company>
+      <description>
+        Food Delivery in Marlboro, MA.
+        Food preparation and set-up.
+      </description>
+    </job>
+
+
+    
+   
+
+
+ ** <job id="FirstS000">
+      <title>3rd Shift Control Room/Security Officer</title>
+      <dates>9/90-1998</dates>
+      <company>First Security Services Corp.Westboro, MA</company>
+      <description>
+        Central monitoring of facilities/CECURE alarm systems, CCTV surveillance and front desk security/customer service for DEC/Quantum facility.
+        First Quality Awards, Officer of the Month Awards
+        Developed custom user interface on VAX/VMS Alpha cluster system using DCL.
+      </description>
+    </job>
+
+
+
+
+
+ ** <job id="WH000">
+      <title>Convenience Store Cashier/ Clerk/ Deli-person.</title>
+      <dates>8/88-8/93</dates>
+      <company>White Hen Pantry-PTNatick, MA</company>
+      <description>
+        Responsible for overnight business and prep of store for morning business.
+
+        Duties include. cashiering, custom deli, sandwichmaking, clean-up, stocking and pricing involving all facets of a fast paced convenience store business.
+      </description>
+    </job>
+
+
+
+
+** <job id="RGN000">
+      <title>Freelance Computer Consulting-</title>
+      <dates>6/90-Present</dates>
+      <company>Self-employed-PT</company>
+      <description>PC tutorials, software installation, application programming, invoicing systems, databases, interfacing own custom designed software with commercially available software off the shelf.</description>
+    </job>
+
+
+ 
+
+** <job id="MB000">
+      <title>Mortgage Broker full/part-time</title>
+      <dates>2/89-To be determined</dates>
+      <company>Multiple Companies  NY/MA</company>
+      <description>
+        Mortgage origination sales of  First, Second and Commercial mortgage loans both inside sales inbound and outbound mode and also outside sales account development.
+
+        Developed mortgage tracking and marketing applications utilizing office suite software applications for internal usage.
+
+        *** content to be determined ***
+      </description>
+    </job>
+
+
+          
+    
+** <job id="PW100">
+      <title>Night Auditor - Part time weekend</title>
+      <dates>8/87-8/90</dates>
+      <company>Park West Hotel and Club -PT Marlboro, MA</company>
+      <description>
+        Performed Night Audit procedure in both computerized and NCR environment.
+        Duties consisted of data/entry posting of all daily recievables, room and tax, food and beverage, room service, laundry, telephone charges, running of end of day procedure and preparing of guest bills for checkout . In addition performed frontdesk guest service functions for night audit shift.
+      </description>
+    </job>
+
+
+
+
+ ** <job id="RADS162">
+      <title>Retail Salesperson</title>
+      <dates>9/85-3/86</dates>
+      <company>Radio Shack, INC.-PT  Stow, MA</company>
+      <description>
+        Retail sales  part-time of consumer electronics products, stereos, vcrs,  radios, computers and hobby electronic components.
+
+        Duties involved merchandising, stocking and customer service for repairs.
+      </description>
+    </job>
+
+
+
+** <job id="RWSW161">
+      <title>Real estate Salesperson -part time</title>
+      <dates>6/84-12/85</dates>
+      <company>Realty World Suburban West-PTFramingham, MA</company>
+      <description>Responsible for sale of 5 properties in Hudson, Franklin, and Worcester</description>
+    </job>
+
+
+** <job id="GNRD160">
+      <title>Senior Project Supervisor/DesignDrafting</title>
+      <dates>2/84-8/85</dates>
+      <company>Genrad Inc.Bolton, MA</company>
+      <description>Supervised Electro-Mechanical design/drafting group</description>
+    </job>
+    
+   
+
+
+** <job id="LFE150"><title>Electrical Product Design Engineer</title>
+      <dates>11/82-2/84</dates>
+      <company>LFE Corp.Clinton, MA</company>
+   <description>Electro-Mechanical Packaging design of AUTOHEX project.</description>
+    </job>
+
+        
+
+ ** <job id="NEN140"><title>Lead Sr. Electrical/Electronics Designer</title>
+      <dates>5/80-11/82</dates>
+      <company>New England Nuclear Corp./Dupont  Billerica, MA</company>
+   <description>Electrical / Electronic Packaging Design LINAC project</description>
+    </job>
+
+    
+  
+
+ ** <job id="PKEL133"><title>Electronics Technician</title>
+      <dates>6/78-5/80</dates>
+      <company>PK Electronics-PTChicago, IL</company>
+   <description>Part-time Prototype  and production assembly and testing.</description>
+    </job>
+
+
+    
+** <job id="INTERFTECH132"><title>PC Designer -free lance</title>
+      <dates>1/80-5/80</dates>
+      <company>Interface Technology-PTChicago, IL</company>
+   <description>Design-layout , detailing and checking of small custom designed PC boards for personal computer interface hardware.</description>
+    </job>
+
+    
+ 
+  
+** <job id="INDPATRL131"><title>Security Guard part-time weekends</title>
+      <dates>1/76-5/80</dates>
+      <company>Industrial Patrol Service-PTChicago, IL</company>
+   <description>Watch tour security patrols, front lobby security at large variety of sites, such as insurance companies,  manufacturing  plants, oil refinery, air hanger and die casting foundry.</description>
+    </job>
+
+
+** <job id="NT130">
+      <title>Electronics Design Draftsman</title>
+      <dates>12/74-5/80</dates>
+      <company>NI-TEC INC.Chicago, IL</company>
+      <description>Design/documentation of military and commercial night vision systems.</description>
+    </job>
+
+
+
+
+
+** <job id="GUARDEL120"><title>Electro-mechanical Detail Draftsman</title>
+      <dates>8/74-11/74</dates>
+      <company>Guardian Electric Chicago, IL</company>
+      <description>Tracing and detailing  of  electro-mechanical  control devices such as solenoids, relays and stepper switches.</description>
+    </job>
+
+    
+
+    
+
+    
+
+** <job id="CHROMAL110"><title>Electro-mechanical Detail Draftsman</title>
+    <dates>3/74-8/74</dates>
+    <company>Chromolloy Alcon Chicago, IL</company>
+  <description>Tracing and detailing  of  small precision electrical connectors.</description>
+  </job>
+
+
+** <job id="100"><title />
+      <dates />
+      <company />
+   <description />
+    </job>
+
+
+
+
+
+  
+
+  
+</experience>
+
+<education id="1">
+  <header>Education:</header>
+
+** <schoolsAndTraining id="1">
+***  <item id="1">
+    <name>New Horizons</name>		<location>Waltham , MA</location>
+    <description id="1">A+,  Net + , Linux + Training and independent study for Microsoft Windows Server Administration, SQL Server Administration and Development MSCA working towards certifications.</description></item>
+
+***  <item id="2">
+    <name>self-taught programmer...</name><description id="1">Curriculum based on functional languages like Lisp/Javascript etc... see LinkedIn and GitHub for more info</description>
+.
+<description id="2">Studied multiple languages although with a primary concentration in code generators like Lisp like languages, YAML,JSON, XML and what IDE's and emacsen have to offer. Quite well aware of Java and .NET, but with the advent and proliferation of open-source frameworks and serialization stores like Rails, Joomla, YAML and JSON these offer a way of working with larger chunks of code to be hooked together accelerating application development and is I think a more effective way than working with just classes and objects (their components). YAML, JSON, XML can be used also to auto-generate class code with a little ingenuity. Also if there is a need for speed CH a C/C++ interpreter (allows manipulating pointers on the command line) can be used to more rapidly develop in C-code and then finishing off by using the compilation process. This is native code and not managed code as in .Net.</description></item>
+
+***  <item id="2i">
+    <name>self-taught programmer...</name><description id="1">Curriculum based on functional languages like Lisp/Javascript etc... see LinkedIn and GitHub for more info</description></item>
+.
+
+***  <item id="3"><name>Massachusetts Credit Union League and CUNA</name> <location>Southborough, MA </location><description>MA Loan Officer and Consumer Lending Certificate(s)</description> </item>
+***  <item id="4"><name />Career Impact Seminars <location />Portsmouth, NH <description />Management Training and Career Development Program Certificate </item>
+***  <item id="5"><name>Centurynet Training for Account Executives</name> <location>Burlington, MA</location> 
+  <description>Century 21 Computer System Training Program Certificate </description></item>
+***  <item id="6"><name>Lowell Institute</name> <location>Westford, MA</location> <description>NIA Recal/Redac CAD Training program Certificate</description> </item>
+
+***  <item id="7"><name>Lane Technical</name> <location>Chicago, IL</location> 
+<description>Pre-engineering and College Prep</description></item></schoolsAndTraining>
+</education>
+
+* <education id="2" type="Sales"> <header>Education and Training:</header>(Sales Oriented Abbreviated)
+
+<schoolsAndTraining>New Horizons Waltham , MA A+, Net + , Linux + Training and Microsoft Windows Server 2008 Server Administration MSCITP working towards certifications.  * Massachusetts Credit Union League and CUNA Southborough, MA Loan Officer and Consumer Lending Certificate(s) * Career Impact Seminars Portsmouth, NH Management Training and Career Dev Program Certificate * Centurynet Training for Acct Execs Burlington, MA * Lane Tech College Prep. Chicago IL</schoolsAndTraining>
+</education>
+<tailers>
+**  <tailer organizations="Linkedin" type="all">LinkedIN Groups:</tailer>
+    <items organizations="Linkedin" type="all">Social Media Marketing, Cloud Computing, SaaS and Virtualization, Microsoft Business Intelligence, Salesforce developers/contractors, SQL Server DBA, SQL Server Developers, Cloud Native Application Delivery and DevOPs, Collab365 | SharePoint Community Group, Linux/Perl/PHP/Ajax/XML/Javascript Professionals, Marketing Automation (Media Network), Spiceworks Users Group, AutoHotkey, Emacs, Linux Users and Open Source Developers</items>
+**  <tailer organizations="Meetup" type="all">Meet-up Groups:</tailer>
+<items organizations="Meetup" type="all">TSSG (Technical Skills Sharing Group (Full stack web development, Big Data Analytics, Software QA Automation, DevOps), Automated Income Master Mind (Internet Marketing), New England SQL Server User Group</items>
+</tailers>
+</resume>

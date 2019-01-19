@@ -11,99 +11,6 @@
 
 
 
-<!--BELOW IS XSL OUTPUT METHOD TEXT-->
-
-<!--<xsl:output method="text" />-->
-
-<!-- MAJOR TAG <JOBSEARCH></JOBSEARCH>-->
-
-<!--	<xsl:template match="/">
-        
-       <jobsearch><resume> 
-        <xsl:apply-templates select="jobsearch/resume" />
-      </resume></jobsearch>
-        
-        </xsl:template>-->
-
-
-<!--   <xsl:template match="/">
-        
-        <xsl:apply-templates select="jobsearch/resume/resume_name" />
-        <xsl:apply-templates select="jobsearch/resume/header[@type='master']" />
-
-        <xsl:apply-templates select="jobsearch/resume/header[@type='primary tech']/subheader[@type='summary']" />
-        <xsl:apply-templates select="jobsearch/resume/header[@type='primary tech']/subheader[@type='skills']" />
-        <xsl:apply-templates select="jobsearch/resume/header[@type='primary tech']/subheader[@type='languages']" />
-        <xsl:apply-templates select="jobsearch/resume/header[@type='primary tech']/subheader[@type='software']" />
-        <xsl:text>&#xa;</xsl:text> 
-	
-        <xsl:apply-templates select="jobsearch/resume/header[@type='primary tech']/subheader[@id='ALLACCOMPLISHMENTS']" />
-
-        <xsl:text>&#xa;</xsl:text> 
-        <xsl:apply-templates select="jobsearch/resume/header[@type='primary tech']/subheader[@id='DESCPAGEFLEX']" />
-        
-        <xsl:text>&#xa;</xsl:text> 
-        <xsl:apply-templates select="jobsearch/resume/header[@type='primary tech']/subheader[@type='pageflex functions']" />
-
-        <xsl:text>&#xa;</xsl:text> 
-        <xsl:apply-templates select="jobsearch/resume/header[@type='primary tech']/subheader[@type='pageflex technology stack']" />
-        <xsl:text>&#xa;</xsl:text>       
-        <xsl:apply-templates select="jobsearch/resume/header[@type='primary tech']/subheader[@type='RGN1']" />
-
-
-        
-	<xsl:text>&#xa;</xsl:text>       
-        <xsl:apply-templates select="jobsearch/resume/header[@type='primary tech']/subheader[@id='DESCDA']" />
-
-        <xsl:text>&#xa;</xsl:text>       
-        <xsl:apply-templates select="jobsearch/resume/header[@type='primary tech']/subheader[@id='DAITEMIZED']" />
-
-         <xsl:text>&#xa;</xsl:text>       
-        <xsl:apply-templates select="jobsearch/resume/header[@type='primary tech']/subheader[@id='DESCGHMNE']" />
-
-
-
-        <xsl:text>&#xa;</xsl:text>       
-        <xsl:apply-templates select="jobsearch/resume/header[@type='primary tech']/subheader[@id='GHMNEITEMIZED']" />
-
-         
-        
-	
-       
-        
-        </xsl:template>-->
-
-
-<!--MORE OLD CODE THAT NEEDS RE-WORKING-->
-
-
-<!--<xsl:template match="/">
-        <jobsearch>
-        <resume>
-        <header-Sales>
-        <xsl:apply-templates select="jobsearch//header-Sales" />
-        </header-Sales>
-        </resume>
-        </jobsearch>
-        </xsl:template>-->
-
-
-<!--MORE OLD CODE THAT NEEDS RE-WORKING-->
-
-
-	<!--<xsl:template match="/">
-        <jobsearch>
-        <resume>
-        <education2-Sales>
-        <xsl:apply-templates select="jobsearch//education2-Sales" />
-        </education2-Sales>
-        </resume>
-        </jobsearch>
-        </xsl:template>-->
-
-
-
-
 <!--OLD CODE THAT HAS BEEN REWORKED-->
 	       	
 <xsl:template match="/">
@@ -127,6 +34,15 @@
  </xsl:text>
  </script>
 
+<script>
+ <xsl:text>
+ function myFunction2A() {
+    document.getElementById("demo").innerHTML= "Security Administrative Professional";
+ }
+ </xsl:text>
+ </script>
+
+
   <script>
     <xsl:text>
 function myFunction3() {
@@ -139,7 +55,7 @@ function myFunction3() {
   <script>
 <xsl:text disable-output-escaping="yes">
 <![CDATA[
-  var skills = [" Python"," SQL Server", " Unix/Linux"," Cygwin", " Power Shell",  " SQLite", " MS Access (VBA)", " VB", " VBScript", " Ruby", " Javascript",  " .NET", " HTML5", " CSS3", " XML", " PHP", " MySQL"];
+  var skills = ["SQL Server", " SQLite", " MS Access (VBA)", " VB", " VBScript", " Ruby", " Javascript", " Python", " .NET", " HTML5", " CSS3", " XML", " PHP", " MySQL", " Unix/Linux"," Cygwin", " Power Shell" ];
   var text = "";
   var i;
   for (i = 0; i < skills.length; i++) {
@@ -154,6 +70,7 @@ function myFunction3() {
 </xsl:text>
 </script>
 
+
   <script>
     <xsl:text>
 function myFunction4() {
@@ -166,7 +83,7 @@ function myFunction4() {
 <script>
 <xsl:text disable-output-escaping="yes">
 <![CDATA[
-var skills2 = ["<b>Expertise in:</b>", "Salesforce", " Sharepoint", " Spiceworks", " Git",  " SQL Server Management Studio", " Virtualization", " Crystal Reports", " Microsoft Office (Including MS Access)", " OpenOffice (extending in Basic and Python) Windows", " Linux/Posix", " Visual Studio", " Eclipse", " Emacs", " Vim", " Wordpress"];
+var skills2 = [" <b>Expertise in:</b>", " Salesforce", " Sharepoint", " Spiceworks", " Git",  " SQL Server Management Studio", " Virtualization", " Crystal Reports", " Microsoft Office (Including MS Access)", " OpenOffice (extending in Basic and Python) Windows", " Linux/Posix", " Visual Studio", " Eclipse", " Emacs", " Vim", " Wordpress"];
 var text2 = "";
 var i;
 for (i = 0; i < skills2.length; i++) {
@@ -209,8 +126,11 @@ body {
   a:link {
   text-decoration: none;
   color: black;
+  
 }
-
+  #myskills {display: block;
+            // color: red;
+}
 
 </style>
 
@@ -221,43 +141,59 @@ body {
 <body>
 <div id="main">
 	<h1><xsl:apply-templates select="//resume_name/name"/></h1>
-	<p><!--<xsl:apply-templates select="//address"/>-->
+	<p><xsl:apply-templates select="//address"/>
         <br />
         <xsl:apply-templates select="//contact_info"/>
         <br />
          <a href="https://linkedin.com/in/raynieva"><xsl:apply-templates select="//linkedIn"/></a>
         <br />
-         <a href="https://github.com/raynieva"><xsl:apply-templates select="//github"/></a> 
+         <!--<a href="https://github.com/raynieva"><xsl:apply-templates select="//github"/></a>--> 
         </p>
         
         
 <h2><b id="demo">Position</b>
   seeking <b id="demo1">status</b> opportunity.</h2>
 
-  <button type="button" onclick="myFunction()">IT Generalist</button>
-  <button type="button" onclick="myFunction2()">IT Professional</button>
-  <button type="button" onclick="self.location='ITGeneralist4-Base.xml.html'">Base Resume</button>
+  <!--><button type="button" onclick="myFunction()">IT Generalist</button>-->
+  <button type="button" onclick="self.location='ITGeneralist4-Base.xml.html'">IT Generalist</button>
+  <!--<button type="button" onclick="myFunction2()">IT Professional</button>-->
+  <button type="button" onclick="self.location='ITGeneralist4-Base.xml.html'">IT Professional</button>
+  <button type="button" onclick="myFunction2A()">Security Administrative Professional</button>
+  <button type="button" onclick="self.location='ITGeneralist4-Base-Sales.xml.html'">Sales Administrative Professional</button>
   <button type="button" onclick="myFunction3()">Direct</button>
   <button type="button" onclick="myFunction4()">Contract</button>
 
 <h3>Summary</h3>
-<p><xsl:apply-templates select="//header[@type='primary tech']/subheader[@type='summary']"/></p>
+<!--<p><xsl:apply-templates select="//header[@type='primary tech']/subheader[@type='summary']"/></p>-->
   	
 
-<div><p><b>SKILLS: </b>
+<!--<div id="myskills"><p><b>SKILLS: </b>
 
 	<span id="skillslist1"></span><span id="skillslist2"></span>
 
 </p></div>
 <button type="button" onclick="mySkills()">Languages</button>
-<button type="button" onclick="mySkills2()">Software</button>
+<button type="button" onclick="mySkills2()">Software</button>-->
 
 
  <br />
- <b>ACCOMPLISHMENTS:</b>
+ <b>SECURITY AND ADMINISTRATIVE SKILLS:</b>
  <br />
+<!--<p><xsl:apply-templates select="//header[@type='security']"/></p>-->
+<ul>
+<li><xsl:apply-templates select="//header[@type='security']//item[@id='sec1']"/></li>
+<li><xsl:apply-templates select="//header[@type='security']//item[@id='sec2']"/></li>
+<li><xsl:apply-templates select="//header[@type='security']//item[@id='sec3']"/></li>
+<li><xsl:apply-templates select="//header[@type='security']//item[@id='sec4']"/></li>
+<li><xsl:apply-templates select="//header[@type='security']//item[@id='sec5']"/></li>
+<li><xsl:apply-templates select="//header[@type='security']//item[@id='sec6']"/></li>
+<li><xsl:apply-templates select="//header[@type='security']//item[@id='sec7']"/></li>
+<li><xsl:apply-templates select="//header[@type='security']//item[@id='sec8']"/></li>
+<li><xsl:apply-templates select="//header[@type='security']//item[@id='sec9']"/></li>
+<li><xsl:apply-templates select="//header[@type='security']//item[@id='sec10']"/></li>
+</ul>
  
-   <p>
+   <!--<p>
      <b><xsl:apply-templates select="//header[@type='primary tech']/subheader[@id='DESCPAGEFLEX']"/></b>
      <ul>
        <b>Functions:</b>
@@ -297,19 +233,21 @@ body {
        <li>
          <xsl:apply-templates select="//header[@type='primary tech']//item[@id='pageflex12']"/>
        </li>
-       
+       <li>
+         <xsl:apply-templates select="//header[@type='primary tech']//item[@id='pageflex12']"/>
+       </li>
      
      
      
      </ul>
 
    </p>
- <br />
- <b>Currently in Progress (On-going)</b>
+ <br />-->
+ <!--<b>Currently in Progress (On-going)</b>-->
 	<br />
-	<a href="https://linkedin.com/in/raynieva"><xsl:apply-templates select="//header[@type='primary tech']//items[@id='RGN1']"/></a>
+<!--	<a href="https://linkedin.com/in/raynieva"><xsl:apply-templates select="//header[@type='primary tech']//items[@id='RGN1']"/></a>
 	<br />
-   <p><b><xsl:apply-templates select="//header[@type='primary tech']/subheader[@id='DESCDA']"/></b> 
+  <p><b><xsl:apply-templates select="//header[@type='primary tech']/subheader[@id='DESCDA']"/></b> 
    
         <br />
 	<xsl:apply-templates select="//header[@type='primary tech']/items[@id='DA1']"/>
@@ -362,10 +300,14 @@ body {
        <xsl:apply-templates select="//header[@type='primary tech']//item[@id='GHMNE5']"/>
      </li>
    </ul>
-   </p>
+   </p>-->
   
  <b>PROFESSIONAL EXPERIENCE:</b>
-
+    <p><b><xsl:apply-templates select="//bus[@id='RGN360i']/title"/></b><br/>
+ <xsl:apply-templates select="//bus[@id='RGN360i']/company"/>
+  <xsl:text> </xsl:text>
+<xsl:apply-templates select="//bus[@id='RGN360i']/dates"/>
+ </p>
 
  <p><b><xsl:apply-templates select="//job[@id='WindR380']/title"/></b><br/>
  <xsl:apply-templates select="//job[@id='WindR380']/company"/>
@@ -379,11 +321,7 @@ body {
 <xsl:apply-templates select="//job[@id='GHMNE380i']/dates"/>
  </p>
 
-  <p><b><xsl:apply-templates select="//bus[@id='RGN360i']/title"/></b><br/>
- <xsl:apply-templates select="//bus[@id='RGN360i']/company"/>
-  <xsl:text> </xsl:text>
-<xsl:apply-templates select="//bus[@id='RGN360i']/dates"/>
- </p>
+
 
  <p><b><xsl:apply-templates select="//job[@id='PF370']/title"/></b><br/>
  <xsl:apply-templates select="//job[@id='PF370']/company"/>
@@ -398,6 +336,21 @@ body {
  </p>
 
 
+  <p><b><xsl:apply-templates select="//job[@id='Pallad001']/title"/></b><br/>
+ <xsl:apply-templates select="//job[@id='Pallad001']/company"/>
+  <xsl:text> </xsl:text>
+<xsl:apply-templates select="//job[@id='Pallad001']/dates"/>
+ </p>
+
+
+ 
+<!--     <p>&#8226;<xsl:apply-templates select="//job[@id='DA350i']"/><br />
+
+        &#8226;<xsl:apply-templates select="//job[@id='Pallad001']"/><br />
+
+        &#8226; <xsl:apply-templates select="//job[@id='GHME340i']"/><br />
+   
+        &#8226;<xsl:apply-templates select="//job[@id='Pallad000']"/></p> -->
 
 
   <p><b><xsl:apply-templates select="//job[@id='GHME340i']/title"/></b><br/>
@@ -406,42 +359,28 @@ body {
 <xsl:apply-templates select="//job[@id='GHME340i']/dates"/>
  </p>
 
-  
+  <p><b><xsl:apply-templates select="//job[@id='Pallad000']/title"/></b><br/>
+ <xsl:apply-templates select="//job[@id='Pallad000']/company"/>
+  <xsl:text> </xsl:text>
+<xsl:apply-templates select="//job[@id='Pallad000']/dates"/>
+ </p>
+
    
 
 
+<p><b>EDUCATION:</b>
+<!--<p><xsl:apply-templates select="//education[@id='1']//item[@id='1']"/></p>-->
+<!--<p><xsl:apply-templates select="//education[@id='1']//item[@id='2i']"/></p>-->
+<p><xsl:apply-templates select="//education[@id='1']//item[@id='7']"/></p>
+<!--<p>GROUPS AND MEMBERSHIPS:</p>
+<p><b><xsl:apply-templates select="//tailers/tailer[@organizations='Meetup']"/></b>
+<xsl:apply-templates select="//tailers/items[@organizations='Meetup']"/></p>
+<p><b><xsl:apply-templates select="//tailers/tailer[@organizations='Linkedin']"/></b>
+<xsl:apply-templates select="//tailers/items[@organizations='Linkedin']"/></p>-->
 
+<!--<p>TESTLINE2</p>-->
 
-
-  <p>
-    <b>EDUCATION:</b></p>
-    <p>
-      <xsl:apply-templates select="//education[@id='1']//item[@id='1']"/>
-    </p>
-    <p>
-      <xsl:apply-templates select="//education[@id='1']//item[@id='2i']"/>
-    </p>
-    <p>
-      <xsl:apply-templates select="//education[@id='1']//item[@id='7']"/>
-    </p>
-    <p>
-      <b>GROUPS AND MEMBERSHIPS:</b>
-    </p>
-    <p>
-      <b>
-        <xsl:apply-templates select="//tailers/tailer[@organizations='Meetup']"/>
-      </b>
-      <xsl:apply-templates select="//tailers/items[@organizations='Meetup']"/>
-    </p>
-    <p>
-      <b>
-        <xsl:apply-templates select="//tailers/tailer[@organizations='Linkedin']"/>
-      </b>
-      <xsl:apply-templates select="//tailers/items[@organizations='Linkedin']"/>
-    </p>
-    <!--<p>TESTLINE2</p>-->
-
-    <!--	<br />
+<!--	<br />
         <b><xsl:apply-templates select="//education1/schoolsAndTraining/item1/name"/></b>&#160;
 <xsl:apply-templates select="//education1/schoolsAndTraining/item1/location"/>
 
@@ -450,17 +389,17 @@ body {
 <br />
         <b><xsl:apply-templates select="//education1/schoolsAndTraining/item2/name"/></b>&#160;
         <xsl:apply-templates select="//education1/schoolsAndTraining/item2/description1"/> -->
-    (Reference Links for : https://www.linkedin.com/in/raynieva and https://github/raynieva)
-
-
-    <!--<br />
+       <!-- (Reference Links for : https://www.linkedin.com/in/raynieva and https://github/raynieva)-->
+  
+         
+<!--<br />
         <b><xsl:apply-templates select="//education1/schoolsAndTraining/item8/name"/></b>&#160;
         <xsl:apply-templates select="//education1/schoolsAndTraining/item8/location"/>&#160;
         <xsl:apply-templates select="//education1/schoolsAndTraining/item8/description"/>-->
+        
+<br />
 
-    <br />
-
-  
+</p>
 </div>
 </body>
 </html>	

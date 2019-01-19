@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="scratch.xslt"?>
+
+
+<header type="Marketing and Technology">
+* Marketing and Technology Orientation
+  <subheader type="summary">Summary
+<item>Creative, and experienced professional bringing superior design and debugging capabilities, innovative problem solving skills and dedication to quality</item></subheader>
+*** <subheader type="skills" level="3">SKILLS:  SQLite (Database optimized for mobile) ,MS Access (VBA),VB,VBScript, Ruby,Javascript,Python,.NET,HTML5,CSS3,XML,PHP,MySQL, Expertise in: Salesforce/Sharepoint Administration, Visual Studio, Microsoft Office (Including MS Access with SQL Server back end),  Studio,Wordpress, Joomla(web framework best suited for social media)</subheader>
+*** <subheader id="ALLACCOMPLISHMENTS" type="accomplishments" level="3">ACCOMPLISHMENTS:</subheader>
+**** <subheader id="DESCPAGEFLEX" type="description" >Product Technical Support for a Global Company that develops Marketing Automation/Variable Data Printing/Flexible web-to-print platforms (Brochures, Business cards, Posters, Email Campaigns and Micro-websites)</subheader>
+**** Itemized<subheader type="pageflex functions">Functions:
+ <item id="pageflex3">Developed Custom Website Storefront Deployment (Using Pageflex to document and control Pageflex) </item> 
+ <item id="pageflex2">Resolved, debug and document customer issues as related to the Pageflex technology stack (see below)</item></subheader>
+**** Itemized<subheader type="pageflex technology stack">Technology Stack:
+ <item id="pageflex10">Graphics and Font technology, Adobe Indesign on MAC as related to Pageflex Support</item>
+ <item id="pageflex12">Pageflex Studio, Pageflex Website Storefront, ASP.Net platform, Salesforce,  Sharepoint</item>
+ <item id="pageflex11">Javascript, Vbscript and XML command packet API</item>
+ <item id="pageflex6">Windows IIS Web Server, Pageflex Server , Windows Server 2008 R2, Windows Server 2012 R2</item>
+ <item id="pageflex7">SQL Server (backups, restores, queries) SQL Server 2005, 2008, 2012 and 2014 (clustered)</item></subheader>
+</header>

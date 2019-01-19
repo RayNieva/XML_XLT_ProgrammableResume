@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resume>
+* Tailers: <tailers>
+**  <tailer organizations="Linkedin" type="all">LinkedIN Groups:</tailer>
+    <items organizations="Linkedin" type="all">Social Media Marketing, Cloud Computing, SaaS and Virtualization, Microsoft Business Intelligence, Salesforce developers/contractors, SQL Server DBA, SQL Server Developers, Cloud Native Application Delivery and DevOPs, Collab365 | SharePoint Community Group, Linux/Perl/PHP/Ajax/XML/Javascript Professionals, Marketing Automation (Media Network), Spiceworks Users Group, AutoHotkey, Emacs, Linux Users and Open Source Developers</items>
+**  <tailer organizations="Meetup" type="all">Meet-up Groups:</tailer>
+<items organizations="Meetup" type="all">TSSG (Technical Skills Sharing Group (Full stack web development, Big Data Analytics, Software QA Automation, DevOps), Automated Income Master Mind (Internet Marketing), New England SQL Server User Group</items>
+</tailers>
+</resume>

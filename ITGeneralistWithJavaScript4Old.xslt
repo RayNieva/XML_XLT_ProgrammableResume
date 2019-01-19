@@ -139,7 +139,7 @@ function myFunction3() {
   <script>
 <xsl:text disable-output-escaping="yes">
 <![CDATA[
-  var skills = [" Python"," SQL Server", " Unix/Linux"," Cygwin", " Power Shell",  " SQLite", " MS Access (VBA)", " VB", " VBScript", " Ruby", " Javascript",  " .NET", " HTML5", " CSS3", " XML", " PHP", " MySQL"];
+  var skills = [" SQL Server", " SQLite", " MS Access (VBA)", " VB", " VBScript", " Ruby", " Javascript", " Python", " .NET", " HTML5", " CSS3", " XML", " PHP", " MySQL", " Unix/Linux"," Cygwin", " Power Shell" ];
   var text = "";
   var i;
   for (i = 0; i < skills.length; i++) {
@@ -365,49 +365,21 @@ body {
    </p>
   
  <b>PROFESSIONAL EXPERIENCE:</b>
+ <p>  
+        &#8226;<xsl:apply-templates select="//job[@id='GHMNE380i']"/><br />
+	
+        &#8226;<xsl:apply-templates select="//bus[@id='RGN360i']"/><br />
+    
+	&#8226;<xsl:apply-templates select="//job[@id='PF370']"/><br />
+        
+    
+      
+    
+      
+     
+        &#8226;<xsl:apply-templates select="//job[@id='DA350i']"/><br />
 
-
- <p><b><xsl:apply-templates select="//job[@id='WindR380']/title"/></b><br/>
- <xsl:apply-templates select="//job[@id='WindR380']/company"/>
-  <xsl:text> </xsl:text>
-<xsl:apply-templates select="//job[@id='WindR380']/dates"/>
- </p>
-
- <p><b><xsl:apply-templates select="//job[@id='GHMNE380i']/title"/></b><br/>
- <xsl:apply-templates select="//job[@id='GHMNE380i']/company"/>
-  <xsl:text> </xsl:text>
-<xsl:apply-templates select="//job[@id='GHMNE380i']/dates"/>
- </p>
-
-  <p><b><xsl:apply-templates select="//bus[@id='RGN360i']/title"/></b><br/>
- <xsl:apply-templates select="//bus[@id='RGN360i']/company"/>
-  <xsl:text> </xsl:text>
-<xsl:apply-templates select="//bus[@id='RGN360i']/dates"/>
- </p>
-
- <p><b><xsl:apply-templates select="//job[@id='PF370']/title"/></b><br/>
- <xsl:apply-templates select="//job[@id='PF370']/company"/>
-  <xsl:text> </xsl:text>
-<xsl:apply-templates select="//job[@id='PF370']/dates"/>
- </p>
-
- <p><b><xsl:apply-templates select="//job[@id='DA350i']/title"/></b><br/>
- <xsl:apply-templates select="//job[@id='DA350i']/company"/>
-  <xsl:text> </xsl:text>
-<xsl:apply-templates select="//job[@id='DA350i']/dates"/>
- </p>
-
-
-
-
-  <p><b><xsl:apply-templates select="//job[@id='GHME340i']/title"/></b><br/>
- <xsl:apply-templates select="//job[@id='GHME340i']/company"/>
-  <xsl:text> </xsl:text>
-<xsl:apply-templates select="//job[@id='GHME340i']/dates"/>
- </p>
-
-  
-   
+        &#8226; <xsl:apply-templates select="//job[@id='GHME340i']"/></p>
 
 
 

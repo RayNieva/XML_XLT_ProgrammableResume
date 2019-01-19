@@ -249,6 +249,7 @@ body {
 	<span id="skillslist1"></span><span id="skillslist2"></span>
 
 </p></div>
+
 <button type="button" onclick="mySkills()">Languages</button>
 <button type="button" onclick="mySkills2()">Software</button>
 
@@ -256,7 +257,33 @@ body {
  <br />
  <b>ACCOMPLISHMENTS:</b>
  <br />
+
+ <p><b>Currently in Progress (On-going)</b>
+ <ul>	<a href="https://linkedin.com/in/raynieva">
+
+	 <li> <b><xsl:apply-templates select="//header[@type='primary tech']//item[@id='RGN3']"/>
+	 </b></li>
+
+	 <li>	<xsl:apply-templates select="//header[@type='primary tech']//item[@id='RGN2']"/>
+	</li>
+
+
+	<li>	<xsl:apply-templates select="//header[@type='primary tech']//item[@id='RGN5']"/></li>
+	 
+	
+	<li>	<xsl:apply-templates select="//header[@type='primary tech']//items[@id='RGN1']"/></li></a>
+	 </ul>
+</p>
+
+   <p>
+     <b><xsl:apply-templates select="//header[@type='primary tech']/subheader[@id='DESCWINDR']"/></b>
+     <ul><li>
+     <xsl:apply-templates select="//header[@type='primary tech']//item[@id='windr1']"/>
+     </li></ul>
+   </p>
  
+
+
    <p>
      <b><xsl:apply-templates select="//header[@type='primary tech']/subheader[@id='DESCPAGEFLEX']"/></b>
      <ul>
@@ -298,17 +325,11 @@ body {
          <xsl:apply-templates select="//header[@type='primary tech']//item[@id='pageflex12']"/>
        </li>
        
-     
-     
-     
-     </ul>
+         </ul>
 
-   </p>
- <br />
- <b>Currently in Progress (On-going)</b>
-	<br />
-	<a href="https://linkedin.com/in/raynieva"><xsl:apply-templates select="//header[@type='primary tech']//items[@id='RGN1']"/></a>
-	<br />
+  </p>
+ 
+ 
    <p><b><xsl:apply-templates select="//header[@type='primary tech']/subheader[@id='DESCDA']"/></b> 
    
         <br />
@@ -347,8 +368,17 @@ body {
 
    <p><b><xsl:apply-templates select="//header[@type='primary tech']/subheader[@id='DESCGHMNE']"/></b>
 	 <br />
-        
-   <ul>
+
+<ul>
+     <li>
+       <xsl:apply-templates select="//header[@type='primary tech']//item[@id='GHMNE7']"/>
+     </li>
+     <li>
+       <xsl:apply-templates select="//header[@type='primary tech']//item[@id='GHMNE6']"/>
+     </li>
+
+
+	   
      <li>
        <xsl:apply-templates select="//header[@type='primary tech']//item[@id='GHMNE2']"/>
      </li>
@@ -366,6 +396,12 @@ body {
   
  <b>PROFESSIONAL EXPERIENCE:</b>
 
+   <p><b><xsl:apply-templates select="//bus[@id='RGN360i']/title"/></b><br/>
+ <xsl:apply-templates select="//bus[@id='RGN360i']/company"/>
+  <xsl:text> </xsl:text>
+<xsl:apply-templates select="//bus[@id='RGN360i']/dates"/>
+ </p>
+
 
  <p><b><xsl:apply-templates select="//job[@id='WindR380']/title"/></b><br/>
  <xsl:apply-templates select="//job[@id='WindR380']/company"/>
@@ -379,11 +415,6 @@ body {
 <xsl:apply-templates select="//job[@id='GHMNE380i']/dates"/>
  </p>
 
-  <p><b><xsl:apply-templates select="//bus[@id='RGN360i']/title"/></b><br/>
- <xsl:apply-templates select="//bus[@id='RGN360i']/company"/>
-  <xsl:text> </xsl:text>
-<xsl:apply-templates select="//bus[@id='RGN360i']/dates"/>
- </p>
 
  <p><b><xsl:apply-templates select="//job[@id='PF370']/title"/></b><br/>
  <xsl:apply-templates select="//job[@id='PF370']/company"/>

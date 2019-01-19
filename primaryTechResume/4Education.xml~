@@ -1,0 +1,33 @@
+<resume>
+* <education id="1">
+  <header>Education:</header>
+
+** <schoolsAndTraining id="1">
+***  <item id="1">
+    <name>New Horizons</name>		<location>Waltham , MA</location>
+    <description id="1">A+,  Net + , Linux + Training and independent study for Microsoft Windows Server Administration, SQL Server Administration and Development MSCA working towards certifications.</description></item>
+
+***  <item id="2">
+    <name>self-taught programmer...</name><description id="1">Curriculum based on functional languages like Lisp/Javascript etc... see LinkedIn and GitHub for more info</description>
+.
+<description id="2">Studied multiple languages although with a primary concentration in code generators like Lisp like languages, YAML,JSON, XML and what IDE's and emacsen have to offer. Quite well aware of Java and .NET, but with the advent and proliferation of open-source frameworks and serialization stores like Rails, Joomla, YAML and JSON these offer a way of working with larger chunks of code to be hooked together accelerating application development and is I think a more effective way than working with just classes and objects (their components). YAML, JSON, XML can be used also to auto-generate class code with a little ingenuity. Also if there is a need for speed CH a C/C++ interpreter (allows manipulating pointers on the command line) can be used to more rapidly develop in C-code and then finishing off by using the compilation process. This is native code and not managed code as in .Net.</description></item>
+
+***  <item id="2i">
+    <name>self-taught programmer...</name><description id="1">Curriculum based on functional languages like Lisp/Javascript etc... see LinkedIn and GitHub for more info</description></item>
+.
+
+***  <item id="3"><name>Massachusetts Credit Union League and CUNA</name> <location>Southborough, MA </location><description>MA Loan Officer and Consumer Lending Certificate(s)</description> </item>
+***  <item id="4"><name></name>Career Impact Seminars <location></location>Portsmouth, NH <description></description>Management Training and Career Development Program Certificate </item>
+***  <item id="5"><name>Centurynet Training for Account Executives</name> <location>Burlington, MA</location> 
+  <description>Century 21 Computer System Training Program Certificate </description></item>
+***  <item id="6"><name>Lowell Institute</name> <location>Westford, MA</location> <description>NIA Recal/Redac CAD Training program Certificate</description> </item>
+
+***  <item id="7"><name>Lane Technical</name> <location>Chicago, IL</location> 
+<description>Pre-engineering and College Prep</description></item></schoolsAndTraining>
+</education>
+
+* <education id="2" type="Sales"> <header>Education and Training:</header>(Sales Oriented Abbreviated)
+
+<schoolsAndTraining>New Horizons Waltham , MA A+, Net + , Linux + Training and Microsoft Windows Server 2008 Server Administration MSCITP working towards certifications.  &#8226; Massachusetts Credit Union League and CUNA Southborough, MA Loan Officer and Consumer Lending Certificate(s) &#8226; Career Impact Seminars Portsmouth, NH Management Training and Career Dev Program Certificate &#8226; Centurynet™ Training for Acct Execs Burlington, MA &#8226; Lane Tech College Prep. Chicago IL</schoolsAndTraining>
+</education>
+</resume>

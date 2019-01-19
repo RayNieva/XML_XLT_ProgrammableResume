@@ -281,6 +281,8 @@ body {
   
  <b>PROFESSIONAL EXPERIENCE:</b>
  <p>  
+        &#8226;<xsl:apply-templates select="//job[@id='GHMNE380i']"/><br />
+
         &#8226;<xsl:apply-templates select="//bus[@id='RGN360i']"/><br />
     
 	&#8226;<xsl:apply-templates select="//job[@id='PF370']"/><br />

@@ -34,16 +34,6 @@
  </xsl:text>
  </script>
 
-<script>
- <xsl:text>
- function myFunction2A() {
-    document.getElementById("demo").innerHTML= "Sales Administrative Professional";
- }
- </xsl:text>
- </script>
-
-
-
   <script>
     <xsl:text>
 function myFunction3() {
@@ -148,19 +138,18 @@ body {
         <br />
          <a href="https://linkedin.com/in/raynieva"><xsl:apply-templates select="//linkedIn"/></a>
         <br />
-         <!--<a href="https://github.com/raynieva"><xsl:apply-templates select="//github"/></a>--> 
+         <a href="https://github.com/raynieva"><xsl:apply-templates select="//github"/></a> 
         </p>
         
         
 <h2><b id="demo">Position</b>
   seeking <b id="demo1">status</b> opportunity.</h2>
 
-  <!--<button type="button" onclick="myFunction()">IT Generalist</button>-->
-  <button type="button" onclick="self.location='ITGeneralist4-Base.xml.html'">IT Generalist</button>
-  <!--<button type="button" onclick="myFunction2()">IT Professional</button>-->
-  <button type="button" onclick="self.location='ITGeneralist4-Base.xml.html'">IT Professional</button>
-  <button type="button" onclick="myFunction2A()">Sales Administrative Professional</button>
-  <button type="button" onclick="self.location='ITGeneralist4-Base-SecurityAdmin.xml.html'">Security Administrative Professional</button>
+  <button type="button" onclick="myFunction()">IT Generalist</button>
+  <button type="button" onclick="myFunction2()">IT Professional</button>
+  <button type="button" onclick="self.location='index.html'">Full Combo Resume</button>
+  <button type="button" onclick="self.location='ITGeneralist-Base-SecurityAdmin.xml.html'">Security Admin Professional</button>
+  <button type="button" onclick="self.location='ITGeneralist4-Base-Sales.xml.html'">Sales Admin Professional</button>
   <button type="button" onclick="myFunction3()">Direct</button>
   <button type="button" onclick="myFunction4()">Contract</button>
 
@@ -168,39 +157,19 @@ body {
 <!--<p><xsl:apply-templates select="//header[@type='primary tech']/subheader[@type='summary']"/></p>-->
   	
 
-<!--<div id="myskills"><p><b>SKILLS: </b>
+<div id="myskills"><p><b>SKILLS: </b>
 
 	<span id="skillslist1"></span><span id="skillslist2"></span>
 
 </p></div>
 <button type="button" onclick="mySkills()">Languages</button>
-<button type="button" onclick="mySkills2()">Software</button>-->
+<button type="button" onclick="mySkills2()">Software</button>
 
 
  <br />
-<!-- <b>SECURITY AND ADMINISTRATIVE SKILLS:</b>-->
+ <b>ACCOMPLISHMENTS:</b>
  <br />
-<!--<p><xsl:apply-templates select="//header[@type='security']"/></p>-->
-<!--<ul>
-<li><xsl:apply-templates select="//header[@type='security']//item[@id='sec1']"/></li>
-<li><xsl:apply-templates select="//header[@type='security']//item[@id='sec2']"/></li>
-<li><xsl:apply-templates select="//header[@type='security']//item[@id='sec3']"/></li>
-<li><xsl:apply-templates select="//header[@type='security']//item[@id='sec4']"/></li>
-<li><xsl:apply-templates select="//header[@type='security']//item[@id='sec5']"/></li>
-<li><xsl:apply-templates select="//header[@type='security']//item[@id='sec6']"/></li>
-<li><xsl:apply-templates select="//header[@type='security']//item[@id='sec7']"/></li>
-<li><xsl:apply-templates select="//header[@type='security']//item[@id='sec8']"/></li>
-<li><xsl:apply-templates select="//header[@type='security']//item[@id='sec9']"/></li>
-<li><xsl:apply-templates select="//header[@type='security']//item[@id='sec10']"/></li>
-</ul>-->
-
-<p><xsl:apply-templates select="//header[@type='Sales']/subheader"/></p>
-<p><xsl:apply-templates select="//header[@type='Sales']/summary"/></p>
-<p><xsl:apply-templates select="//header[@type='Sales']/items[@type='skills']"/></p>
-<p><xsl:apply-templates select="//header[@type='Sales']/highlights"/></p>
-<p><xsl:apply-templates select="//header[@type='Sales']/items[@type='accomplishments']"/></p>
-
-
+ 
    <!--<p>
      <b><xsl:apply-templates select="//header[@type='primary tech']/subheader[@id='DESCPAGEFLEX']"/></b>
      <ul>
@@ -312,6 +281,8 @@ body {
   
  <b>PROFESSIONAL EXPERIENCE:</b>
  <p>  
+        &#8226;<xsl:apply-templates select="//job[@id='GHMNE380i']"/><br />
+
         &#8226;<xsl:apply-templates select="//bus[@id='RGN360i']"/><br />
     
 	&#8226;<xsl:apply-templates select="//job[@id='PF370']"/><br />
@@ -323,24 +294,19 @@ body {
      
         &#8226;<xsl:apply-templates select="//job[@id='DA350i']"/><br />
 
-        <!--&#8226;<xsl:apply-templates select="//job[@id='Pallad001']"/><br />-->
+        &#8226;<xsl:apply-templates select="//job[@id='Pallad001']"/><br />
 
         &#8226; <xsl:apply-templates select="//job[@id='GHME340i']"/><br />
    
-        &#8226; <xsl:apply-templates select="//jobs[@type='past01']"/><br /></p> 
-
-
-        <!--&#8226;<xsl:apply-templates select="//job[@id='Pallad000']"/></p>--> 
+        &#8226;<xsl:apply-templates select="//job[@id='Pallad000']"/></p> 
 
     
 
 
-<p><b>EDUCATION:</b></p>
-<!--<p><xsl:apply-templates select="//education[@id='1']//item[@id='1']"/></p>-->
-<!--<p><xsl:apply-templates select="//education[@id='1']//item[@id='2i']"/></p>-->
-
+<p><b>EDUCATION:</b>
+<p><xsl:apply-templates select="//education[@id='1']//item[@id='1']"/></p>
+<p><xsl:apply-templates select="//education[@id='1']//item[@id='2i']"/></p>
 <p><xsl:apply-templates select="//education[@id='1']//item[@id='7']"/></p>
-
 <!--<p>GROUPS AND MEMBERSHIPS:</p>
 <p><b><xsl:apply-templates select="//tailers/tailer[@organizations='Meetup']"/></b>
 <xsl:apply-templates select="//tailers/items[@organizations='Meetup']"/></p>
@@ -358,7 +324,7 @@ body {
 <br />
         <b><xsl:apply-templates select="//education1/schoolsAndTraining/item2/name"/></b>&#160;
         <xsl:apply-templates select="//education1/schoolsAndTraining/item2/description1"/> -->
-       <!-- (Reference Links for : https://www.linkedin.com/in/raynieva and https://github/raynieva)-->
+        (Reference Links for : https://www.linkedin.com/in/raynieva and https://github/raynieva)
   
          
 <!--<br />
@@ -368,7 +334,7 @@ body {
         
 <br />
 
-
+</p>
 </div>
 </body>
 </html>	

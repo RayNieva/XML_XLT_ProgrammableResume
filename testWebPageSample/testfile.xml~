@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?><webpage xmlns:ns0="http://www.w3.org/2003/XInclude">
+  <body>Hello world!</body>
+  <body>Hello world!</body>
+
+   <ns0:include href="footer.xml" />
+<body>Hello World too</body>
+  <body>Hello World again</body>
+<footer>© Contoso Corp, 2003</footer>
+</webpage>

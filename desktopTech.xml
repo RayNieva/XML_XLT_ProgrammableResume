@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<header type="Desktop">
+* Desktop  
+** <subheader type="summary"></subheader> Summary 
+<item></item>Creative, and experienced professional bringing superior design and debugging capabilities, innovative problem solving skills and dedication to quality
+*** <subheader type="skills" level="3"></subheader> SKILLS: SQL Server, MS Access (VBA),VB.NET, VBScript, Power Shell, Expertise in: Office 365 Administration  with Sharepoint and OneDrive, Outlook/MS Exchange, Windows 10 Pro, SQL Server Management Studio, SSIS, VMWare , Visual Studio
+**** <subheader id="ALLACCOMPLISHMENTS" type="accomplishments" level="3"></subheader> ACCOMPLISHMENTS:
+**** <subheader id="DESCPAGEFLEX" type="description"></subheader> Product  Technical Support for a Global Company that develops Marketing Automation/Variable Data Printing/Flexible web-to-print platforms
+**** Itemized<subheader type="pageflex functions"></subheader> Functions:
+<item id="pageflex1">Interfaced with product engineering to develop new features and bug fixes based on customer needs</item> 
+<item id="pageflex2">Resolved, debug and document customer issues as related to the Pageflex technology stack (see below)</item> 
+<item id="pageflex3">Developed  Custom Storefront Website Deployment (automation) (Using Pageflex to document and control Pageflex)</item> 
+<item id="pageflex4">Re-build and emulate customer platforms (Windows Servers and Dev workstations) using virtualization to resolve customer issues</item> 
+<item id="pageflex5">Resolve SMTP, network and firewall issues as related to Pageflex operations</item> 
+**** Itemized<subheader type="pageflex technology stack"></subheader>Technology Stack:
+<item id="pageflex6">Windows Server 2008 R2, Windows Server 2012 R2, Windows IIS Web Server, Pageflex Server</item> 
+<item id="pageflex7">SQL Server (backups, restores, queries) SQL Server 2005, 2008, 2012 and 2014 (clustered)</item> 
+<item id="pageflex9">VMWare ESXi (vCenter Server and vSphere Client)</item> 
+<item id="pageflex12">Pageflex Studio, Pageflex Storefront, ASP.Net platform, Salesforce, Lotus Notes, Slack, Sharepoint</item> 
+**** <subheader type="RGN1">Currently in Progress (On-going)</subheader> 
+<items id="RGN1"></items> Multiple Projects for RGNterprises, TSSG, Automated Income Master Mind and Flat Penny Bar and Grill involving multiple technologies.  Please see https://linkedin/in/raynieva for more detailed information
+
+**** <subheader id="DESCDA" type="description">Working for the largest Foodservice GPO in the nation
+<item id="DA3">Facilitated email migrations for 3 sister companies to MS Exchange/Outlook</item> 
+<item id="DA9">Facilitated migration/upgrade to Office365 from installed MS Office suites</item> 
+<item id="DA2">Facilitated introduction of Sidekick/Hubspot(TM) (Outlook/Exchange) email sales/marketing superpower tracking plug-in and Salesforce/Outlook integration plugin</item> 
+<item id="DA10">Facilitated Upgrades from Windows 7 to  Windows 8, 8.1 and 10</item> 
+<item id="DA3">Improved storage performance significantly for massive Teamdrive(TM) filesystem (250,000 document files) by moving to a no-sync strategy</item> 
+<item id="DA5">Design, development and administration of 3 different VOIP systems using VonageBusiness(TM) for each separate company brand. Migration of IPS’s original system to VonageBusiness (includes number porting)</item> 
+<item id="DA6">In capacity of Information Engineer, Salesforce(TM) development of 8000+ to date ticketing system and integration to Spiceworks Technology</item> 
+<item id="DA8">Design and development of Intranet Web site using Wordpress and Salesforce/Sharepoint Integration.</item> 
+<item id="DA11">Onboarding Automation – using Excel(VBA)/Ruby/Ditto/SQLite</item> 
+<item id="DA12">“Hands On” hardware expertise and experience. Ransomware recovery/prevention.</item></subheader> 
+**** <subheader id="DESCGHMNE">At the largest community based newspaper company in NE (parent company is largest in nation)
+<items id="GHMNE2">Working for business applications group support/developed a variety of time saving automated production and system adminstration/automation solutions using multiple programming languages (web and client/server desktop) technologies</items> 
+<items id="GHMNE3">Instrumental in conversion of advertising systems/products from Enterprise News Media (35 papers) acquisitions to Miles advertising system</items> 
+<items id="GHMNE4">Disaster recovery of mission critical business systems for advertising, sales, finance and production</items> 
+<items id="GHMNE5">Design and development of Joomla/MediaWiki based intranet website. Design, development of  VBA based automated Insert Tracking System for print and deliver operations and Helpdesk Database</items></subheader> 
+
+
+
+</header >
